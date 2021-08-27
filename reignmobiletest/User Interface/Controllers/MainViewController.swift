@@ -28,11 +28,11 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     //Data Methods
     func loadData() {
         EntryLogic.getEntries { result in
+            self.vLoading.isHidden = true
+            self.tblEntries.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+            
             if result.count > 0 {
-                self.vLoading.isHidden = true
                 self.entries = result
-
-                self.tblEntries.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
                 self.tblEntries.reloadData()
             } else {
                 DialogHelper.showOKDialog(viewController: self, message: "No Data Found")
