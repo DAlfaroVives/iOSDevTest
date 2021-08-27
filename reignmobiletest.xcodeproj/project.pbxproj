@@ -3,29 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85F91889BEA3F124FADA7D6B /* Pods_reignmobiletest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC840284B15B573C8A9AF410 /* Pods_reignmobiletest.framework */; };
+		B040D25E26D960EF009CFADC /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = B040D25D26D960EF009CFADC /* Date+Format.swift */; };
 		B06EB21F26D859200072660D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EB21E26D859200072660D /* AppDelegate.swift */; };
 		B06EB22126D859200072660D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EB22026D859200072660D /* SceneDelegate.swift */; };
-		B06EB22326D859200072660D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EB22226D859200072660D /* ViewController.swift */; };
 		B06EB22626D859200072660D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06EB22426D859200072660D /* Main.storyboard */; };
 		B06EB22926D859200072660D /* reignmobiletest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B06EB22726D859200072660D /* reignmobiletest.xcdatamodeld */; };
 		B06EB22B26D859210072660D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06EB22A26D859210072660D /* Assets.xcassets */; };
 		B06EB22E26D859210072660D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06EB22C26D859210072660D /* LaunchScreen.storyboard */; };
+		B06EB23D26D85A6D0072660D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EB23C26D85A6D0072660D /* MainViewController.swift */; };
+		B06EB24026D8657D0072660D /* CellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EB23F26D8657D0072660D /* CellFactory.swift */; };
+		B06EB24526D865A30072660D /* EntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EB24326D865A30072660D /* EntryCell.swift */; };
+		B06EB24626D865A30072660D /* EntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06EB24426D865A30072660D /* EntryCell.xib */; };
+		B06EB24826D8725E0072660D /* EntryLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EB24726D8725E0072660D /* EntryLogic.swift */; };
+		B06EB24A26D87C240072660D /* EntryNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EB24926D87C240072660D /* EntryNetworking.swift */; };
+		B06EB24F26D87EA00072660D /* Entry+DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EB24E26D87EA00072660D /* Entry+DataAccess.swift */; };
+		B06EB25126D88CCD0072660D /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EB25026D88CCD0072660D /* Storage.swift */; };
+		B08515E626D895E2007288E4 /* DialogHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08515E526D895E2007288E4 /* DialogHelper.swift */; };
+		B08515E826D89D6B007288E4 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08515E726D89D6B007288E4 /* NetworkHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B06EB21B26D859200072660D /* reignmobiletest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reignmobiletest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B040D25D26D960EF009CFADC /* Date+Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
+		B06EB21B26D859200072660D /* iOS Dev Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Dev Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06EB21E26D859200072660D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B06EB22026D859200072660D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B06EB22226D859200072660D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B06EB22526D859200072660D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B06EB22826D859200072660D /* reignmobiletest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = reignmobiletest.xcdatamodel; sourceTree = "<group>"; };
 		B06EB22A26D859210072660D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B06EB22D26D859210072660D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B06EB22F26D859210072660D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06EB23C26D85A6D0072660D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B06EB23F26D8657D0072660D /* CellFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellFactory.swift; sourceTree = "<group>"; };
+		B06EB24326D865A30072660D /* EntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCell.swift; sourceTree = "<group>"; };
+		B06EB24426D865A30072660D /* EntryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntryCell.xib; sourceTree = "<group>"; };
+		B06EB24726D8725E0072660D /* EntryLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryLogic.swift; sourceTree = "<group>"; };
+		B06EB24926D87C240072660D /* EntryNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryNetworking.swift; sourceTree = "<group>"; };
+		B06EB24E26D87EA00072660D /* Entry+DataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+DataAccess.swift"; sourceTree = "<group>"; };
+		B06EB25026D88CCD0072660D /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		B08515E526D895E2007288E4 /* DialogHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogHelper.swift; sourceTree = "<group>"; };
+		B08515E726D89D6B007288E4 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		BB4D00A754AF7C46742E68BA /* Pods-reignmobiletest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reignmobiletest.debug.xcconfig"; path = "Target Support Files/Pods-reignmobiletest/Pods-reignmobiletest.debug.xcconfig"; sourceTree = "<group>"; };
+		DC840284B15B573C8A9AF410 /* Pods_reignmobiletest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reignmobiletest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB100C0992F6F15D68DCDCD3 /* Pods-reignmobiletest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reignmobiletest.release.xcconfig"; path = "Target Support Files/Pods-reignmobiletest/Pods-reignmobiletest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,24 +57,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F91889BEA3F124FADA7D6B /* Pods_reignmobiletest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C92AC6D505BFF8DEA44B04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB4D00A754AF7C46742E68BA /* Pods-reignmobiletest.debug.xcconfig */,
+				FB100C0992F6F15D68DCDCD3 /* Pods-reignmobiletest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9F8D4702CBE338ACFF33E7A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC840284B15B573C8A9AF410 /* Pods_reignmobiletest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B06EB21226D859200072660D = {
 			isa = PBXGroup;
 			children = (
 				B06EB21D26D859200072660D /* reignmobiletest */,
 				B06EB21C26D859200072660D /* Products */,
+				04C92AC6D505BFF8DEA44B04 /* Pods */,
+				9F8D4702CBE338ACFF33E7A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B06EB21C26D859200072660D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B06EB21B26D859200072660D /* reignmobiletest.app */,
+				B06EB21B26D859200072660D /* iOS Dev Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,16 +102,114 @@
 		B06EB21D26D859200072660D /* reignmobiletest */ = {
 			isa = PBXGroup;
 			children = (
+				B06EB23826D8596B0072660D /* Model */,
+				B06EB23726D859630072660D /* Networking */,
+				B06EB23626D8595B0072660D /* Logic */,
+				B06EB23526D859530072660D /* User Interface */,
+				B06EB23926D859780072660D /* Resources */,
 				B06EB21E26D859200072660D /* AppDelegate.swift */,
 				B06EB22026D859200072660D /* SceneDelegate.swift */,
-				B06EB22226D859200072660D /* ViewController.swift */,
-				B06EB22426D859200072660D /* Main.storyboard */,
-				B06EB22A26D859210072660D /* Assets.xcassets */,
-				B06EB22C26D859210072660D /* LaunchScreen.storyboard */,
 				B06EB22F26D859210072660D /* Info.plist */,
-				B06EB22726D859200072660D /* reignmobiletest.xcdatamodeld */,
 			);
 			path = reignmobiletest;
+			sourceTree = "<group>";
+		};
+		B06EB23526D859530072660D /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				B08515E426D895D7007288E4 /* Helpers */,
+				B06EB23E26D8656B0072660D /* Cells */,
+				B06EB23B26D859910072660D /* Controllers */,
+				B06EB23A26D8598B0072660D /* Storyboards */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		B06EB23626D8595B0072660D /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				B06EB24726D8725E0072660D /* EntryLogic.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		B06EB23726D859630072660D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B06EB24926D87C240072660D /* EntryNetworking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B06EB23826D8596B0072660D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B06EB24B26D87E760072660D /* Data Access */,
+				B06EB22726D859200072660D /* reignmobiletest.xcdatamodeld */,
+				B06EB25026D88CCD0072660D /* Storage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B06EB23926D859780072660D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B06EB22A26D859210072660D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B06EB23A26D8598B0072660D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B06EB22426D859200072660D /* Main.storyboard */,
+				B06EB22C26D859210072660D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B06EB23B26D859910072660D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B06EB23C26D85A6D0072660D /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B06EB23E26D8656B0072660D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B06EB24226D8658C0072660D /* EntryCell */,
+				B06EB23F26D8657D0072660D /* CellFactory.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B06EB24226D8658C0072660D /* EntryCell */ = {
+			isa = PBXGroup;
+			children = (
+				B06EB24326D865A30072660D /* EntryCell.swift */,
+				B06EB24426D865A30072660D /* EntryCell.xib */,
+			);
+			path = EntryCell;
+			sourceTree = "<group>";
+		};
+		B06EB24B26D87E760072660D /* Data Access */ = {
+			isa = PBXGroup;
+			children = (
+				B06EB24E26D87EA00072660D /* Entry+DataAccess.swift */,
+			);
+			path = "Data Access";
+			sourceTree = "<group>";
+		};
+		B08515E426D895D7007288E4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B08515E526D895E2007288E4 /* DialogHelper.swift */,
+				B08515E726D89D6B007288E4 /* NetworkHelper.swift */,
+				B040D25D26D960EF009CFADC /* Date+Format.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B06EB23226D859210072660D /* Build configuration list for PBXNativeTarget "reignmobiletest" */;
 			buildPhases = (
+				B584CC33DD699F219DCB8FAE /* [CP] Check Pods Manifest.lock */,
 				B06EB21726D859200072660D /* Sources */,
 				B06EB21826D859200072660D /* Frameworks */,
 				B06EB21926D859200072660D /* Resources */,
+				53030B5A0F905E516D5B663E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -87,7 +231,7 @@
 			);
 			name = reignmobiletest;
 			productName = reignmobiletest;
-			productReference = B06EB21B26D859200072660D /* reignmobiletest.app */;
+			productReference = B06EB21B26D859200072660D /* iOS Dev Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B06EB24626D865A30072660D /* EntryCell.xib in Resources */,
 				B06EB22E26D859210072660D /* LaunchScreen.storyboard in Resources */,
 				B06EB22B26D859210072660D /* Assets.xcassets in Resources */,
 				B06EB22626D859200072660D /* Main.storyboard in Resources */,
@@ -136,15 +281,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53030B5A0F905E516D5B663E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reignmobiletest/Pods-reignmobiletest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reignmobiletest/Pods-reignmobiletest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reignmobiletest/Pods-reignmobiletest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B584CC33DD699F219DCB8FAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reignmobiletest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B06EB21726D859200072660D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B06EB22326D859200072660D /* ViewController.swift in Sources */,
 				B06EB22926D859200072660D /* reignmobiletest.xcdatamodeld in Sources */,
 				B06EB21F26D859200072660D /* AppDelegate.swift in Sources */,
+				B040D25E26D960EF009CFADC /* Date+Format.swift in Sources */,
+				B06EB24F26D87EA00072660D /* Entry+DataAccess.swift in Sources */,
+				B08515E626D895E2007288E4 /* DialogHelper.swift in Sources */,
+				B08515E826D89D6B007288E4 /* NetworkHelper.swift in Sources */,
+				B06EB24A26D87C240072660D /* EntryNetworking.swift in Sources */,
 				B06EB22126D859200072660D /* SceneDelegate.swift in Sources */,
+				B06EB23D26D85A6D0072660D /* MainViewController.swift in Sources */,
+				B06EB24526D865A30072660D /* EntryCell.swift in Sources */,
+				B06EB24826D8725E0072660D /* EntryLogic.swift in Sources */,
+				B06EB24026D8657D0072660D /* CellFactory.swift in Sources */,
+				B06EB25126D88CCD0072660D /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +482,7 @@
 		};
 		B06EB23326D859210072660D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB4D00A754AF7C46742E68BA /* Pods-reignmobiletest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,7 +493,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dalfarov.reignmobiletest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS Dev Test";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +501,7 @@
 		};
 		B06EB23426D859210072660D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB100C0992F6F15D68DCDCD3 /* Pods-reignmobiletest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,7 +512,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dalfarov.reignmobiletest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS Dev Test";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
